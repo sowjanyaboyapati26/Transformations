@@ -4577,7 +4577,7 @@
     <optimizationLevel>9</optimizationLevel>
     <jsScripts>      <jsScript>        <jsScript_type>0</jsScript_type>
         <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>&#x2f;&#x2f;Script here&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x2f;&#x2f;1. Print Description&#xd;&#xa;&#xd;&#xa;if&#x28;PrintDescription&#x3d;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;&#x7d;&#xd;&#xa;else if &#x28;PrintDescription&#x21;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;var PrintDescription&#x3d;PrintDescription.replace&#x28;&#x2f;&#x5b;&#x5e;&#x5c;x00-&#x5c;x7F&#x5d;&#x2f;g, &#x22;&#x22;&#x29;&#x3b;&#xd;&#xa;&#x7d;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x2f;&#x2f;2. Listing Description&#xd;&#xa;if&#x28;ListingDescription&#x3d;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;&#x7d;&#xd;&#xa;else if &#x28;ListingDescription&#x21;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;var ListingDescription&#x3d;ListingDescription.replace&#x28;&#x2f;&#x5b;&#x5e;&#x5c;x00-&#x5c;x7F&#x5d;&#x2f;g, &#x22;&#x22;&#x29;&#x3b;&#xd;&#xa;&#x7d;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x2f;&#x2f;3. Office Name&#xd;&#xa;if&#x28;OfficeName&#x3d;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;&#x7d;&#xd;&#xa;else if &#x28;OfficeName&#x21;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;var OfficeName&#x3d;OfficeName.replace&#x28;&#x2f;&#x5b;&#x5e;&#x5c;x00-&#x5c;x7F&#x5d;&#x2f;g, &#x22;&#x22;&#x29;&#x3b;&#xd;&#xa;&#x7d;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x2f;&#x2f;4. Agent Postal Code &#xd;&#xa;&#xd;&#xa;if&#x28;AgentPostalCode&#x3d;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;&#x7d;&#xd;&#xa;else if &#x28;AgentPostalCode&#x21;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;var AgentPostalCode&#x3d;AgentPostalCode.replace&#x28;&#x2f;&#x5b;&#x5e;&#x5c;x00-&#x5c;x7F&#x5d;&#x2f;g, &#x22;&#x22;&#x29;&#x3b;&#xd;&#xa;&#x7d;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x2f;&#x2f;5. AgentEmail&#xd;&#xa;if&#x28;AgentEMail&#x3d;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;&#x7d;&#xd;&#xa;else if &#x28;AgentEMail&#x21;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;var AgentEMail&#x3d;AgentEMail.replace&#x28;&#x2f;&#x5b;&#x5e;&#x5c;x00-&#x5c;x7F&#x5d;&#x2f;g, &#x22;&#x22;&#x29;&#x3b;&#xd;&#xa;&#x7d;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x2f;&#x2f;6. Agent Name&#xd;&#xa;if&#x28;AgentName&#x3d;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;&#x7d;&#xd;&#xa;else if &#x28;AgentName&#x21;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;var AgentName&#x3d;AgentName.replace&#x28;&#x2f;&#x5b;&#x5e;&#x5c;x00-&#x5c;x7F&#x5d;&#x2f;g, &#x22;&#x22;&#x29;&#x3b;&#xd;&#xa;&#x7d;</jsScript_script>
+        <jsScript_script>&#x2f;&#x2f;Script here&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x2f;&#x2f;1. Print Description&#xd;&#xa;&#xd;&#xa;if&#x28;PrintDescription&#x3d;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;&#x7d;&#xd;&#xa;else if &#x28;PrintDescription&#x21;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;var PrintDescription&#x3d;PrintDescription.replace&#x28;&#x2f;&#x5b;&#x5e;&#x5c;x00-&#x5c;x7F&#x5d;&#x2f;g, &#x22;&#x22;&#x29;&#x3b;&#xd;&#xa;&#x7d;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x2f;&#x2f;2. Listing Description&#xd;&#xa;if&#x28;ListingDescription&#x3d;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;&#x7d;&#xd;&#xa;else if &#x28;ListingDescription&#x21;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;var ListingDescription&#x3d;ListingDescription.replace&#x28;&#x2f;&#x5b;&#x5e;&#x5c;x00-&#x5c;x7F&#x5d;&#x2f;g, &#x22;&#x22;&#x29;&#x3b;&#xd;&#xa;&#x7d;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x2f;&#x2f;3. Office Name&#xd;&#xa;if&#x28;OfficeName&#x3d;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;&#x7d;&#xd;&#xa;else if &#x28;OfficeName&#x21;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;var OfficeName&#x3d;OfficeName.replace&#x28;&#x2f;&#x5b;&#x5e;&#x5c;x00-&#x5c;x7F&#x5d;&#x2f;g, &#x22;&#x22;&#x29;&#x3b;&#xd;&#xa;&#x7d;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x2f;&#x2f;4. Agent Postal Code &#xd;&#xa;&#xd;&#xa;if&#x28;AgentPostalCode&#x3d;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;&#x7d;&#xd;&#xa;else if &#x28;AgentPostalCode&#x21;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;var AgentPostalCode&#x3d;AgentPostalCode.replace&#x28;&#x2f;&#x5b;&#x5e;&#x5c;x00-&#x5c;x7F&#x5d;&#x2f;g, &#x22;&#x22;&#x29;&#x3b;&#xd;&#xa;&#x7d;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x2f;&#x2f;5. AgentEmail&#xd;&#xa;if&#x28;AgentEMail&#x3d;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;&#x7d;&#xd;&#xa;else if &#x28;AgentEMail&#x21;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;var AgentEMail&#x3d;AgentEMail.replace&#x28;&#x2f;&#x5b;&#x5e;&#x5c;x00-&#x5c;x7F&#x5d;&#x2f;g, &#x22;&#x22;&#x29;&#x3b;&#xd;&#xa;&#x7d;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x2f;&#x2f;6. Agent Name&#xd;&#xa;if&#x28;AgentName&#x3d;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;&#x7d;&#xd;&#xa;else if &#x28;AgentName&#x21;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;var AgentName&#x3d;AgentName.replace&#x28;&#x2f;&#x5b;&#x5e;&#x5c;x00-&#x5c;x7F&#x5d;&#x2f;g, &#x22;&#x22;&#x29;&#x3b;&#xd;&#xa;&#x7d;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x2f;&#x2f;7. OfficeName&#xd;&#xa;if&#x28;companyEMail&#x3d;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;&#x7d;&#xd;&#xa;else if &#x28;companyEMail&#x21;&#x3d;null&#x29;&#xd;&#xa;&#x7b;&#xd;&#xa;var companyEMail&#x3d;companyEMail.replace&#x28;&#x2f;&#x5b;&#x5e;&#x5c;x00-&#x5c;x7F&#x5d;&#x2f;g, &#x22;&#x22;&#x29;&#x3b;&#xd;&#xa;&#x7d;</jsScript_script>
       </jsScript>    </jsScripts>    <fields>      <field>        <name>PrintDescription</name>
         <rename>PrintDescription</rename>
         <type>String</type>
@@ -4610,6 +4610,12 @@
         <replace>Y</replace>
       </field>      <field>        <name>AgentName</name>
         <rename>AgentName</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>      <field>        <name>companyEMail</name>
+        <rename>companyEMail</rename>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -5012,7 +5018,7 @@
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>65</length>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
